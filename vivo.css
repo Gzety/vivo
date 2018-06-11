@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background: #f7f7f5;
+}
+
+.vivo-header {
+    width: 100%;
+    height: 44px;
+    background: #2f2f2f;
+    line-height: 21px;
+    display: flex;
+    margin: 0 auto;
+}
+.small-header{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.vivo-header-left {
+    width: 74px;
+    height: 20px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+.vivo-header-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.vivo-header-center {
+    position: absolute;
+    left: 270px;
+}
+
+.vivo-header-center a {
+    font-size: 14px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 22px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.vivo-header-right {
+    width: 14px;
+    height: 14px;
+    top: 13px;
+    right: 94px;
+    display: flex;
+
+}
+
+.vivo-header-center {
+    position: absolute;
+    left: 270px;
+}
+
+.vivo-header-right :nth-child(1) {
+    width: 31px;
+    height: 30px;
+    position: absolute;
+    top: 9px;
+    right: 96px;
+}
+
+.vivo-header-right :nth-child(2) {
+    width: 26px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.header-pic {
+    width: 1200px;
+    height: 133px;
+    padding-top: 30px;
+    background: #f7f7f5;
+    margin: 0 auto;
+}
+
+.header-pic-top {
+    padding-left: 385px;
+}
+
+.header-search img {
+    vertical-align: middle;
+}
+
+.header-search img:nth-child(1) {
+    padding-left: 405px;
+    margin-right: -1px;
+}
+
+.header-search img:nth-child(3) {
+    padding-left: 38px;
+    margin-right: -1px;
+}
+
+.header-search img:nth-child(5) {
+    padding-left: 38px;
+    margin-right: -1px;
+}
+
+.header-search img:nth-child(7) {
+    padding-left: 38px;
+    margin-right: -1px;
+}
+
+.header-search img:nth-child(9) {
+    padding-left: 155px;
+    margin-right: -1px;
+}
+
+.header-search img:nth-child(11) {
+    padding-left: 36px;
+    margin-right: -1px;
+}
+
+.header-search {
+    width: 1200px;
+    height: 21px;
+    padding: 30px 0 17px 0;
+}
+
+.header-search a {
+    color: rgb(108, 120, 128);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.vivo-banner {
+    margin: 0 auto;
+    width: 1200px;
+    height: 450px;
+}
+
+.vivo-banner img {
+    width: 1200px;
+    height: 450px;
+}
+
+.vivo-special-area {
+    width: 1200px;
+    height: 150px;
+    background: #f7f7f5;
+    margin: 6px auto 0;
+    display: flex;
+}
+
+.vivo-special-area img {
+    width: 293px;
+    height: 140px;
+}
+
+.special-area {
+    width: 293px;
+    height: 140px;
+
+}
+
+.special-area:nth-child(1) {
+    margin-right: 10px;
+}
+
+.special-area:nth-child(2) {
+    margin-right: 10px;
+}
+
+.special-area:nth-child(3) {
+    margin-right: 10px;
+}
+
+.into {
+    width: 1200px;
+    height: 24px;
+    padding: 38px 0 25px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+    background: #f7f7f5;
+    position: relative;
+    margin: 0 auto;
+}
+
+.into-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+
+.box-list {
+    width: 1200px;
+    height: 521px;
+    display: flex;
+    background: #f7f7f5;
+    margin: 0 auto;
+}
+
+.box {
+    width: 394px;
+    height: 511px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.box:nth-child(1) {
+    margin-right: 10px;
+}
+
+.box:nth-child(2) {
+    margin-right: 10px;
+}
+
+.box-pic {
+    width: 230px;
+    height: 230px;
+    margin: 58px auto 0;
+}
+
+.box-pic img {
+    width: 230px;
+    height: 230px;
+}
+
+.color-list {
+    width: 394px;
+    height: 28px;
+    padding-top: 28px;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 6px;
+}
+
+.box-text {
+    text-align: center;
+}
+
+.box-price {
+    margin-top: 62px;
+    width: 394px;
+    height: 30px;
+    font-size: 21px;
+    color: red;
+    text-align: center;
+}
+
+.subject {
+    width: 1200px;
+    height: 24px;
+    padding: 38px 0 25px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+    background: #f7f7f5;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.subject-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+
+.first-fine {
+    width: 1200px;
+    height: 390px;
+    display: flex;
+    background: #f7f7f5;
+    margin: 0 auto;
+}
+
+.second-fine {
+    width: 1200px;
+    height: 390px;
+    display: flex;
+    background: #f7f7f5;
+    margin: 0 auto;
+}
+
+.vivo-large-pic {
+    width: 595px;
+    height: 380px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.vivo-fine-pic {
+    width: 293px;
+    height: 380px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.vivo-fine-pic:nth-child(1) {
+    margin-right: 10px;
+}
+
+.vivo-fine-pic:nth-child(2) {
+    margin-right: 10px;
+}
+
+.vivo-fine-pic:nth-child(3) {
+    margin-right: 10px;
+}
+
+.vivo-fine-third-pic {
+    width: 293px;
+    height: 380px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.vivo-large-pic img {
+    width: 595px;
+    height: 380px;
+}
+
+.vivo-fine-pic img {
+    width: 172px;
+    height: 172px;
+}
+
+.vivo-fine-third-pic img {
+    width: 172px;
+    height: 172px;
+}
+
+.fine-pic {
+    width: 172px;
+    height: 172px;
+    margin: 43px auto 0;
+}
+
+.fine-color-list {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 19px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+
+.fine-text {
+    text-align: center;
+    font-size: 13px;
+
+}
+
+.fine-price {
+    margin-top: 35px;
+    text-align: center;
+    color: red;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.parts {
+    width: 1200px;
+    height: 24px;
+    padding: 38px 0 25px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+    background: #f7f7f5;
+    margin: 0 auto;
+    position: relative;
+}
+
+.parts-first-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 291px;
+
+}
+
+.parts-second-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 163px;
+
+}
+
+.parts-third-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 64px;
+
+}
+
+.parts-fourth-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+
+}
+
+.vivo-parts {
+    width: 1200px;
+    height: 780px;
+    background: #f7f7f5;
+    margin: 0 auto;
+}
+
+.parts-pic {
+    background: white;
+}
+
+.first-parts {
+    width: 1200px;
+    height: 380px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.first-parts:nth-child(2){
+    margin-bottom: 80px;
+}
+
+.parts-pic:nth-child(1) {
+    width: 293px;
+    height: 380px;
+    margin-right: 10px;
+}
+
+.parts-pic:nth-child(2) {
+    width: 293px;
+    height: 380px;
+    margin-right: 10px;
+
+}
+
+.parts-pic:nth-child(3) {
+    width: 293px;
+    height: 380px;
+    margin-right: 10px;
+}
+
+.parts-picture {
+    width: 293px;
+    height: 380px;
+    background: white;
+}
+
+.parts-pic img {
+    width: 172px;
+    height: 172px;
+}
+
+.parts-picture img {
+    width: 172px;
+    height: 172px;
+}
+
+.parts-fine {
+    width: 172px;
+    height: 172px;
+    margin: 43px auto 0;
+}
+
+.parts-color-list {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 19px;
+    line-height: 25px;
+    margin-bottom: 7px;
+
+}
+
+.parts-text {
+    text-align: center;
+    font-size: 13px;
+
+}
+
+.parts-price {
+    margin-top: 35px;
+    text-align: center;
+    color: red;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+/*.shop-foot{*/
+
+/*}*/
